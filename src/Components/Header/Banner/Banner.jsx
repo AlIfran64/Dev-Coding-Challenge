@@ -14,7 +14,7 @@ const Banner = () => {
       </div>
 
       {/* Buttons */}
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-3 lg:gap-0 lg:space-x-3 my-6 lg:my-12 px-5">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-3 lg:gap-0 lg:space-x-3 my-6 lg:my-12 px-5">
 
         {/* Demo */}
         <button className="w-full lg:w-auto flex items-center justify-center gap-2 py-2 lg:py-3.5 px-6.5 rounded-md bg-white hover:bg-white/90 font-semibold cursor-pointer transition-all duration-400 ease-in-out text-sm lg:text-base">
@@ -29,7 +29,7 @@ const Banner = () => {
 
 
       {/* Cards */}
-      <div className="mt-15 lg:mt-0 h-44 lg:h-auto overflow-x-hidden overflow-y-visible relative">
+      <div className="mt-15 lg:mt-0 h-44 md:h-64 lg:h-auto overflow-x-hidden overflow-y-visible relative">
         <img
           className="w-full h-full object-cover transform scale-100 sm:scale-none transition-transform duration-500 origin-top"
           src={cards}

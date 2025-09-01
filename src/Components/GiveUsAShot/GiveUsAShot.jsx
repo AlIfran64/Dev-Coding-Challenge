@@ -10,7 +10,7 @@ const GiveUsAShot = () => {
         <p className='text-sm lg:text-xl text-[#E9D7FE] mt-4'>Join over 4,000+ startups already growing with Untitled.</p>
 
         {/* Buttons */}
-        <div className='mt-6 flex flex-col-reverse lg:flex-row gap-2 lg:gap-3'>
+        <div className='mt-6 flex flex-col-reverse md:flex-row gap-2 lg:gap-3'>
 
           {/* learn more */}
           <button className='w-full lg:w-auto text-sm lg:text-base font-medium cursor-pointer bg-white hover:bg-white/90 text-black px-6 py-2 lg:py-3 rounded-md transition-all duration-400 ease-in-out'>Learn more</button>
@@ -22,7 +22,7 @@ const GiveUsAShot = () => {
 
       {/* right part */}
       <div>
-        <img className='rounded-b-2xl lg:rounded-bl-none lg:rounded-r-2xl' src={image} alt="image" />
+        <img className='rounded-b-2xl lg:rounded-bl-none lg:rounded-r-2xl w-full' src={image} alt="image" />
       </div>
     </div>
   );
