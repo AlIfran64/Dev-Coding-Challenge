@@ -1,7 +1,11 @@
 # Dev Coding Challenge
 
-A frontend coding challenge project deployed on [Vercel](https://dev-coding-challenge-one.vercel.app/).  
-This project demonstrates modern web development practices with a focus on clean UI, responsive design, and performance.
+This is a frontend coding challenge project that demonstrates modern web development practices with a focus on clean UI, responsive design, and performance.
+
+---
+
+## 🔗 Live Site
+- 🌐 [https://dev-coding-challenge-one.vercel.app/](https://dev-coding-challenge-one.vercel.app/)
 
 ---
 
