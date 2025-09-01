@@ -8,11 +8,11 @@ import spherule from '../../assets/spherule.png';
 
 const CompanyStats = () => {
   return (
-    <div className='w-11/12 mx-auto my-25'>
-      <h1 className='text-center text-base text-[#475467]'>Join 4,000+ companies already growing</h1>
+    <div className='w-11/12 mx-auto my-12 lg:my-25 lg:p-0'>
+      <h1 className='text-center text-sm lg:text-base text-[#475467]'>Join 4,000+ companies already growing</h1>
 
       {/* Company's */}
-      <div className='grid grid-cols-6 gap-8 place-items-center mt-8'>
+      <div className='grid grid-cols-2 lg:grid-cols-6 gap-8 place-items-center mt-5 p-5'>
         {/* Company: Boltshift */}
         <div>
           <img src={boltshift} alt="Boltshift logo" />

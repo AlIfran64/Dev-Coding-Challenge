@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../../assets/Logo.png';
 import { NavLink } from 'react-router';
 import { IoIosArrowDown } from 'react-icons/io';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
 
@@ -22,19 +23,24 @@ const Navbar = () => {
           <h1 className='font-semibold text-lg'>Untitled UI</h1>
 
           {/* Navigation */}
-          <div className='mx-5'>
+          <div className='mx-5 hidden lg:block'>
             {links}
           </div>
         </div>
 
         {/* right part */}
-        <div className='space-x-2'>
+        <div className='space-x-2 hidden lg:block'>
 
           {/* log in */}
           <button className='text-base text-white font-medium cursor-pointer hover:bg-white hover:text-black px-4 py-1.5 rounded-md transition-all duration-400 ease-in-out'>Log in</button>
 
           {/* sign up */}
           <button className='bg-[#7F56D9] text-white text-base font-medium px-4 py-1.5 cursor-pointer rounded-md hover:bg-[#643fb3] hover:border-white transition-all duration-400 ease-in-out'>Sign up</button>
+        </div>
+
+        {/* Hamburger icon */}
+        <div className='lg:hidden text-white'>
+          <GiHamburgerMenu size={25} />
         </div>
       </div>
     </div>
