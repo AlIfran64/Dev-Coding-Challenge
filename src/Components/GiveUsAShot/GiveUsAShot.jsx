@@ -22,7 +22,7 @@ const GiveUsAShot = () => {
 
       {/* right part */}
       <div>
-        <img className='rounded-b-2xl lg:rounded-bl-none lg:rounded-r-2xl w-full' src={image} alt="image" />
+        <img className='rounded-b-2xl lg:rounded-bl-none lg:rounded-r-2xl w-full h-44 lg:h-auto object-cover' src={image} alt="image" />
       </div>
     </div>
   );
