@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Components/Header/Navbar/Navbar';
 import Banner from '../../Components/Header/Banner/Banner';
 import CompanyStats from '../../Components/CompanyStats/CompanyStats';
+import GiveUsAShot from '../../Components/GiveUsAShot/GiveUsAShot';
 
 const Homepage = () => {
   return (
@@ -19,6 +20,9 @@ const Homepage = () => {
 
       {/* Company statistics */}
       <CompanyStats></CompanyStats>
+      {/* Give us a shot section */}
+      <GiveUsAShot></GiveUsAShot>
+
       {/* Main end */}
     </div>
   );
