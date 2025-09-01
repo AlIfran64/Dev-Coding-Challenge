@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../Components/Header/Navbar/Navbar';
 import Banner from '../../Components/Header/Banner/Banner';
+import CompanyStats from '../../Components/CompanyStats/CompanyStats';
 
 const Homepage = () => {
   return (
@@ -15,6 +16,9 @@ const Homepage = () => {
       {/* Header end */}
 
       {/* Main start */}
+
+      {/* Company statistics */}
+      <CompanyStats></CompanyStats>
       {/* Main end */}
     </div>
   );

@@ -6,16 +6,17 @@ import { IoIosArrowDown } from 'react-icons/io';
 const Navbar = () => {
 
   const links = <>
-    <NavLink className="mx-5 text-sm font-medium">Home</NavLink>
-    <NavLink className="mx-5 text-sm font-medium">Products <IoIosArrowDown className='inline-block' size={18} /></NavLink>
-    <NavLink className="mx-5 text-sm font-medium">Resources <IoIosArrowDown className='inline-block' size={18} /></NavLink>
-    <NavLink className="mx-5 text-sm font-medium">Pricing</NavLink>
+    <NavLink className="mx-5 text-base font-medium hover:text-[#E9D5FF]">Home</NavLink>
+    <NavLink className="mx-5 text-base font-medium hover:text-[#E9D5FF]">Products <IoIosArrowDown className='inline-block' size={18} /></NavLink>
+    <NavLink className="mx-5 text-base font-medium hover:text-[#E9D5FF]">Resources <IoIosArrowDown className='inline-block' size={18} /></NavLink>
+    <NavLink className="mx-5 text-base font-medium hover:text-[#E9D5FF]">Pricing</NavLink>
   </>
 
   return (
-    <div className='bg-[#53389E] py-3'>
+    <div className='bg-[#53389E] py-4'>
       <div className='w-11/12 mx-auto flex justify-between items-center'>
-        {/* left */}
+
+        {/* left part */}
         <div className='flex justify-start items-center gap-1 text-white'>
           <img className='w-8 h-8' src={logo} alt="logo" />
           <h1 className='font-semibold text-lg'>Untitled UI</h1>
@@ -26,10 +27,14 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* right */}
+        {/* right part */}
         <div className='space-x-2'>
-          <button className='text-sm text-white font-medium cursor-pointer border-2 border-transparent hover:border-[#7F56D9] px-4 py-2 rounded-md'>Log in</button>
-          <button className='bg-[#7F56D9] text-white text-sm font-medium px-4 py-2 cursor-pointer rounded-md border-2 border-[#7F56D9]'>Signup</button>
+
+          {/* log in */}
+          <button className='text-base text-white font-medium cursor-pointer hover:bg-white hover:text-black px-4 py-1.5 rounded-md transition-all duration-400 ease-in-out'>Log in</button>
+
+          {/* sign up */}
+          <button className='bg-[#7F56D9] text-white text-base font-medium px-4 py-1.5 cursor-pointer rounded-md hover:bg-[#643fb3] hover:border-white transition-all duration-400 ease-in-out'>Sign up</button>
         </div>
       </div>
     </div>
