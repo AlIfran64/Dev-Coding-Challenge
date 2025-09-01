@@ -40,7 +40,7 @@ const Navbar = () => {
 
         {/* Hamburger icon */}
         <div className='lg:hidden text-white'>
-          <GiHamburgerMenu size={25} />
+          <GiHamburgerMenu size={20} />
         </div>
       </div>
     </div>
